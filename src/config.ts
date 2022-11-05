@@ -33,23 +33,63 @@ export const PHOTO_LIST : PhotoList = [
     {
         name: 'one',
         alt: 'una foto de il nido della poiana',
-        path: 'https://http.cat/200.jpg'
+        path: './img/1.jpeg'
     },
     {
         name: 'one',
         alt: 'una foto de il nido della poiana',
-        path: 'https://http.cat/201.jpg'
+        path: './img/2.jpeg'
     },
     {
         name: 'one',
         alt: 'una foto de il nido della poiana',
-        path: 'https://http.cat/202.jpg'
+        path: './img/3.jpeg'
     },
     {
         name: 'one',
         alt: 'una foto de il nido della poiana',
-        path: 'https://http.cat/203.jpg'
+        path: './img/4.jpeg'
     },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/5.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/6.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/7.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/8.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/9.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/10.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/11.jpeg'
+    },
+    {
+        name: 'one',
+        alt: 'una foto de il nido della poiana',
+        path: './img/12.jpeg'
+    }
 ];
 
 export const GEO : Geo = {

@@ -1,9 +1,9 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
-import Title from '../components/Title.astro';
-import { SITE_TITLE } from '../config';
+import Location from '../components/Location';
+import { GEO } from '../config';
 ---
 
 <DefaultLayout>
-	<div class="title"><Title title="Location" /></div>
+	<Location coordinates={GEO} />
 </DefaultLayout>

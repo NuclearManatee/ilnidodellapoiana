@@ -1,6 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header/index.astro';
+import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
 const pathname : string = Astro.url.pathname;
@@ -13,7 +13,7 @@ const pathname : string = Astro.url.pathname;
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	</head>
 	<body>
-		<Header pathname={pathname}/> 
+		<Header /> 
 		<div class="container">
 			<slot />
 		</div>

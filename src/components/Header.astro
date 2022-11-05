@@ -1,0 +1,21 @@
+---
+import { NAV_MENU } from '../config';
+import '../styles/header.css';
+import type { NavMenuOption } from '../types';
+---
+
+<header> 
+    { 
+        NAV_MENU.map( (option : NavMenuOption) => (
+            <div>
+                <a href={option.path}>
+                    <div class={
+                        option.path === Astro.url.pathname ? 'material-icons active-nav' : 'material-icons'
+                    }>
+                        {option.icon}
+                    </div>
+                </a>
+            </div>
+        )) 
+    }
+</header>

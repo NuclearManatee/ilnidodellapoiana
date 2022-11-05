@@ -1,0 +1,62 @@
+
+.masonry {
+    margin: 0.5rem;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: masonry;
+}
+
+.masonry > .item {
+    margin: 0.5rem; 
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.masonry > .item:hover, .item:active {
+    animation: item-hover 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes item-hover{
+
+    0% {
+        z-index: 5;
+        min-width: 25vw;
+        min-height: 25vh;
+    }
+
+    100% {
+        z-index:5;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    .masonry {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .masonry {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .masonry {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}

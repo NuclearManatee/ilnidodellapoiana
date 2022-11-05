@@ -1,8 +1,10 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
-import Title from '../components/Title.astro';
+import Photos from '../components/Photos.astro';
+import {PHOTO_LIST} from '../config';
+
 ---
 
 <DefaultLayout>
-	<div class="title"><Title title="Photos" /></div>
+	<Photos list={PHOTO_LIST} />
 </DefaultLayout>

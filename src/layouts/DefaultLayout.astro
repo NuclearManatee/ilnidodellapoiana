@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header/index.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+
+const pathname : string = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	</head>
+	<body>
+		<Header pathname={pathname}/> 
+		<div class="container">
+			<slot />
+		</div>
+	</body>
+</html>

@@ -20,3 +20,5 @@ pnpm-debug.log*
 
 #images versioned with git LFS
 img/
+# Local Netlify folder
+.netlify

@@ -18,7 +18,5 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-#images versioned with git LFS
-img/
 # Local Netlify folder
 .netlify

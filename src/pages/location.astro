@@ -2,8 +2,17 @@
 import DefaultLayout from '../layouts/DefaultLayout.astro';
 import Location from '../components/Location';
 import { GEO } from '../config';
+import 'leaflet/dist/leaflet.css'
+import '../styles/location.css';
 ---
 
+<style>
+	.map{
+		height: 100vh;
+		width: 100vw;
+	}
+</style>
+
 <DefaultLayout>
-	<Location coordinates={GEO} />
+	<Location coordinates={GEO} client:only="react" />
 </DefaultLayout>

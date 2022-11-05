@@ -93,6 +93,6 @@ export const PHOTO_LIST : PhotoList = [
 ];
 
 export const GEO : Geo = {
-    lon : 0,
-    lat : 0
+    lon : 9.2094,
+    lat : 44.9794
 }

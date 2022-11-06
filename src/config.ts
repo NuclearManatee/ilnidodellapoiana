@@ -1,6 +1,6 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
-import type { Geo, NavMenuOptions, PhotoList } from "./types";
+import type { AboutSection, Geo, NavMenuOptions, PhotoList } from "./types";
 
 
 export const SITE_TITLE : string = 'Il Nido della Poiana';
@@ -95,4 +95,24 @@ export const PHOTO_LIST : PhotoList = [
 export const GEO : Geo = {
     lon : 9.2094,
     lat : 44.9794
+}
+
+export const ABOUT_SECTION : AboutSection = {
+    linkList : [
+        {
+            imgPath : '/img/airbnb.png',
+            link : 'https://www.airbnb.com',
+            description : 'AirBnB'
+        },
+        {
+            imgPath : '/img/booking.png',
+            link : 'https://www.booking.com',
+            description : 'Booking'
+        },
+        {
+            imgPath : '/img/ilcasaledellapoiana.png',
+            link : 'https://www.ilcasaledellapoiana.com',
+            description : 'Il Casale della Poiana'
+        }
+    ]
 }

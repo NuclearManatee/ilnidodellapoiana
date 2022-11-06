@@ -19,3 +19,14 @@ export type Photo = {
 };
 
 export type PhotoList = Photo[];
+
+export type AboutLink = {
+    imgPath : string,
+    link : string,
+    description? : string
+}
+
+export type AboutSection = {
+    description? : string,
+    linkList : AboutLink[]
+}

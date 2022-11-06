@@ -33,12 +33,12 @@ export const PHOTO_LIST : PhotoList = [
     {
         name: 'one',
         alt: 'una foto de il nido della poiana',
-        path: './img/1.jpeg'
+        path: './img/2.jpeg'
     },
     {
         name: 'one',
         alt: 'una foto de il nido della poiana',
-        path: './img/2.jpeg'
+        path: './img/1.jpeg'
     },
     {
         name: 'one',

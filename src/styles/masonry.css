@@ -1,6 +1,6 @@
 
 .masonry {
-    margin: 0.5rem;
+    margin: 1rem;
     height: 100%;
     width: 100%;
     display: grid;
@@ -9,8 +9,7 @@
     grid-template-rows: masonry;
 }
 
-.masonry > .item {
-    margin: 0.5rem; 
+.masonry > .item { 
     border-radius: 10px;
     overflow: hidden;
     display: flex;

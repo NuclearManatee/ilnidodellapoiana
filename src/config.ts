@@ -101,12 +101,12 @@ export const ABOUT_SECTION : AboutSection = {
     linkList : [
         {
             imgPath : '/img/airbnb.png',
-            link : 'https://www.airbnb.com',
+            link : 'https://it.airbnb.ch/rooms/634572383980070682',
             description : 'AirBnB'
         },
         {
             imgPath : '/img/booking.png',
-            link : 'https://www.booking.com',
+            link : 'https://www.booking.com/hotel/it/il-nido-della-poiana-montalto-pavese.it.html',
             description : 'Booking'
         },
         {

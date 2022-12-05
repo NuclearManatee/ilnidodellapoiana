@@ -9,7 +9,7 @@ import '../styles/masonry.css';
 <div class="masonry">
     {
         PHOTO_LIST.map( (picture : Photo) => (
-            <div class="item">
+            <div class="item" onclick="this.classList.toggle('selected')">
                     <img src={picture.path} alt={picture.alt} />
             </div>    
         ))

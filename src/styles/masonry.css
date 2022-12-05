@@ -1,12 +1,14 @@
 
 .masonry {
-    margin: 1rem;
-    height: 100%;
-    width: 100%;
+    margin: 0.2rem;
+    margin-top: 5rem;
+    margin-left: 0;
+    height: calc(100vh - 5rem);
+	z-index: 8;
+    width: 100vw;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 0.2rem;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: masonry;
 }
 
 .masonry > .item { 
@@ -16,9 +18,15 @@
     justify-content: space-evenly;
 }
 
-.masonry > .item:hover, .item:active {
-    animation: item-hover 0.5s ease;
+.masonry > .item > img {
+    border-radius: 10px;
+    object-fit: fill;
+}
+
+.masonry > .selected {
+    animation: item-hover;
     animation-fill-mode: forwards;
+
 }
 
 @keyframes item-hover{
@@ -40,7 +48,6 @@
 
     .masonry {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: masonry;
     }
 
 }
@@ -49,7 +56,11 @@
 
     .masonry {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: masonry;
+        height: 100vh;
+        width: calc(100vw - 5rem);
+        margin-left: 5rem;
+        margin-top: 0;
+        z-index: 8;
     }
 
 }
@@ -58,7 +69,6 @@
 
     .masonry {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: masonry;
     }
 
 }

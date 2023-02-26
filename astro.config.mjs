@@ -9,8 +9,10 @@ import react from "@astrojs/react";
 import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
+
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://www.ilnidodellapoiana.com',
   integrations: [mdx(), sitemap(), react()],
   output: "server",
   adapter: netlify()

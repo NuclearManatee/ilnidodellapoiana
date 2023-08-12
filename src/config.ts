@@ -111,7 +111,7 @@ export const ABOUT_SECTION : AboutSection = {
         },
         {
             imgPath : '/img/ilcasaledellapoiana.png',
-            link : 'https://www.ilcasaledellapoiana.com',
+            link : 'https://www.facebook.com/groups/411349850989553',
             description : 'Il Casale della Poiana'
         }
     ]

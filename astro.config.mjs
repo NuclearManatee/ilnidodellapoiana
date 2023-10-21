@@ -13,11 +13,5 @@ import netlify from "@astrojs/netlify/functions";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.ilnidodellapoiana.com',
-  integrations: [mdx(), sitemap(
-    {
-      customPages: ['https://www.ilnidodellapoiana.com','https://www.ilnidodellapoiana.com/photos','https://www.ilnidodellapoiana.com/location','https://www.ilnidodellapoiana.com/about']
-    }
-  ), react()],
-  output: "server",
-  adapter: netlify()
+  integrations: [mdx(), sitemap(), react()]
 });
